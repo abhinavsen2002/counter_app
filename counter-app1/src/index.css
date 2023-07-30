@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  background-color: #ece7b4;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.navbar {
+  background-color: #32502e;
+}
+.navbar h1 {
+  display: inline-block;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #f3efcc;
+}
+
+.navbar p {
+  background-color: #ece7b4;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 13px;
+  padding-right: 13px;
+  margin-top: 18px;
+  float: right;
+  color: #32502e;
+  font-weight: bold;
+  text-align: center;
+}
+
+.links {
+  display: inline;
+  /* text-align: right; */
+  /* margin: 5px; */
+}
+
+.links a {
+  text-decoration: none;
+  color: #f3efcc;
+  float: right;
+  margin: 26px;
+}
+
+.links a:hover {
+  box-shadow: 0 4px 8px 0 rgba(255, 251, 0, 0.2);
+}
+
+.Counter {
+  display: inline;
+
+  width: 15%;
+  margin: 5%;
+  float: left;
+  background: #f3efcc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  color: #32502e;
+}
+
+.Counter:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+.Counter img {
+  width: 80%;
+  margin: 10%;
+}
+
+.Counter button {
+  display: inline-block;
+  background-color: #c6d57e;
+  border: none;
+  color: #32502e;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  width: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.filters {
+  margin: auto;
+  text-align: center;
+}
+
+.filters h1 {
+  color: #32502e;
+  margin-bottom: 0px;
+}
+
+.clicked {
+  background-color: #32502e;
+  color: #ece7b4;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 30px;
+  border: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+.unclicked {
+  background-color: #ffffff;
+  color: #406343;
+  /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); */
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 30px;
+  border: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.2);
+}
+.Counter button:hover {
+  background-color: #406343;
+  color: #ece7b4;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.Counter p {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.Counter h2 {
+  text-align: center;
+}
+
+.controls {
+  margin: auto;
+  width: 60%;
+  margin-bottom: 30px;
+  /* border: 3px solid green; */
+  text-align: center;
+}
